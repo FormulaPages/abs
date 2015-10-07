@@ -1,0 +1,20 @@
+{
+  "name": "formula-abs",
+  "version": "0.0.1",
+  "description": "ABS function",
+  "main": "ABS.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "babel ABS.es6 -m umd --out-file ABS.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/abs.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/abs/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/abs#readme"
+}
